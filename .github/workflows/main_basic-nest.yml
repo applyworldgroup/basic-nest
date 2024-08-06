@@ -68,4 +68,5 @@ jobs:
           app-name: 'basic-nest'
           slot-name: 'Production'
           package: .
-          
+        env:
+          SCM_TRACE_LEVEL: 4
